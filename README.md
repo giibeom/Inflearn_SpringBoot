@@ -88,8 +88,8 @@
 #### @ComponentScan
 ```java
 @ComponentScan(
-				basePackages = "hello.core.member",
-        excludeFilters =@ComponentScan.Filter(type = FilterType.ANNOTATION, classes =Configuration.class)
+	basePackages = "hello.core.member",
+        excludeFilters = @ComponentScan.Filter(type = FilterType.ANNOTATION, classes =Configuration.class)
 )
 ```
 - excludeFilters 는 컴포넌트 스캔에 제외 될 대상들
